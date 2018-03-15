@@ -26,6 +26,7 @@
 \usepackage{longtable}
 \usepackage{caption}
 	\setlength{\abovecaptionskip}{0.5em}
+\usepackage{makecell}
 
 \title{\Huge{ENG2016: Bike Project}}
 \author{\begin{tabular}{l c}
@@ -156,7 +157,62 @@ As progress was made with the project, initial roles couldn't be maintained due 
 	\end{tabular}
 \end{table}
 
-\section{Product Design Specification (User Requirements)}
+\section{User Requirements}
+
+\subsection{Identifying the Target Market}
+
+\begin{itemize}
+	\setlength{\itemsep}{0pt}
+	\item Designed for a 55+ year old man who is commuting to work in the city
+	\item Design should be comfortable and accommodate non-conventional riding gear such as a full suit
+	\item Expected to be transporting at least one piece of luggage, e.g. briefcase
+	\item Wants to arrive to work without being sweaty
+	\item Relatively fit, travelling a maximum of 50km per day (to and from work)
+	\item Tenured employee with sufficient funds
+\end{itemize}
+
+\subsection{Product Design Specification}
+
+\begin{longtable}{l l c}
+	\hline
+	Category&Specification&Importance (1-5)\\\hline
+	\makecell[l]{Technical Requirements\\ \\}&\makecell[l]{Despite being electrically assisted, operation for \\the user should resemble that of a normal push bike}&\makecell[c]{3}\\ \cline{2-3}
+						 &\makecell[l]{According to EU regulations, the motor will assist\\up to maximum speeds of 25 km/h}&\makecell[c]{5}\\ \cline{2-3}
+						 &\makecell[l]{The bike's structural integrity should withstand worst\\case loading scenarios without permanent\\deformations}&\makecell[c]{5}\\ \cline{2-3}
+						 &\makecell[l]{Mechanical components should withstand at least\\20,000 operational hours}&\makecell[c]{4}\\ \cline{2-3}
+						 &\makecell[l]{The frame should withstand the weight of a\\55-year-old man up to the 95\textsuperscript{th} percentile $\approx$ 113kg}&\makecell[c]{4}\\ \cline{2-3}
+						 &\makecell[l]{Wheels, rims, gearing, and turning angles should be\\optimised for a city environment}&\makecell[c]{3}\\ \cline{2-3}
+						 &\makecell[l]{According to EU regulations, maximum motor power\\of 250W.}&\makecell[c]{5}\\ \cline{2-3}
+						 &\makecell[l]{Components should not be compromised structurally\\and accommodate for thermal expansion between -30\\to 60$^{\circ}$C}&\makecell[c]{2}\\ \cline{2-3}
+						 &\makecell[l]{Design should accommodate a solution for\\comfortably transporting at least one suitcase.}&\makecell[c]{4}\\ \cline{2-3}
+						 &\makecell[l]{Full-cycle recharging of the battery should be within\\4 hours}&\makecell[c]{3}\\ \cline{2-3}
+						 &\makecell[l]{Battery should offer a minimum range of 70km} &4\\ \hline
+	Ergonomics&Design should offer a comfortable riding position&4\\ \cline{2-3}
+		  &\makecell[l]{Emphasis on comfort should be placed on points of\\contact such as the handlebars and the seat.}&\makecell[c]{3}\\ \cline{2-3}
+		  &\makecell[l]{Bike geometry should not stress common points of\\injury such as lower/upper back, neck, and knees.}&\makecell[c]{3}\\ \cline{2-3}
+		  &\makecell[l]{A  non-trained person could assemble/disassemble the\\bike within 60 minutes.}&\makecell[c]{2}\\ \cline{2-3}
+		  &\makecell[l]{Feet should not slide off the pedals during\\normal operation.}&\makecell[c]{3}\\ \cline{2-3}
+		  &\makecell[l]{Battery should be rechargeable from a conventional\\outlet, such as the ones found at home or work.}&\makecell[c]{5}\\ \cline{2-3}
+		  &\makecell[l]{Bike should offer different driving modes such as\\disengaging the motor and economy mode.}&\makecell[c]{3}\\ \hline 
+	\makecell[l]{Maintenance\\ \\}&\makecell[l]{Battery should not require changing or maintenance\\for at least 1,000 charging cycles.}&\makecell[c]{3}\\ \cline{2-3}
+				      &\makecell[l]{Mechanical components which are non-specific for\\the bike design should be readily available}&\makecell[c]{4}\\ \cline{2-3}
+				      &\makecell[l]{Motor should be reliable, and in case of failure it\\should be serviced by an expert mechanic}&\makecell[c]{4}\\ \cline{2-3}
+				      &\makecell[l]{Sensors and tools available on-board of bicycle, \\should offer the user information about possible\\system failures}&\makecell[c]{3}\\ \cline{2-3}
+				      &\makecell[l]{Battery should be easily accessible whilst being\\shielded from the environment}&\makecell[c]{3}\\ \cline{2-3}
+				      &\makecell[l]{To avoid mechanical component degradation, mild\\corrosion resistance should be provided for water,\\salt, dust, wind, ice, rocks, oil, and gasoline.}&\makecell[c]{3}\\ \cline{2-3}
+		   &\makecell[l]{Suspension should not only provide comfort for the\\user, but also protect the electrical hardware.}&\makecell[c]{4}\\ \hline
+	\makecell[l]{Safety\\ \\}&\makecell[l]{A full stop from 25 km/h should be achieved within\\a braking distance of 8 m.}&\makecell[c]{4}\\ \cline{2-3}
+				 &\makecell[l]{Chain should be protected from the driver's attire\\and environment}&\makecell[c]{3}\\ \cline{2-3}
+				 &\makecell[l]{Street accessories as per law, such as alights,\\reflectors, and brakes.}&\makecell[c]{5}\\ \cline{2-3}
+				 &\makecell[l]{Battery should be compatible with different outlets\\and standards to avoid failure during charging.}&\makecell[c]{5}\\ \cline{2-3}
+				 &\makecell[l]{Control system should include a feedback loop to\\avoid exposing components to voltages and currents\\outside operational ranges.}&\makecell[c]{5}\\ \cline{2-3}
+	      &\makecell[l]{The explosion from a punctured tyre should be\\minimised.}&\makecell[c]{4}\\ \hline
+	\makecell[l]{Cost\\ \\ \\}&\makecell[l]{Final product price should be a bit higher than\\the market average, within the range of \textsterling 1,500 -\\\textsterling 2,200}&\makecell[c]{4}\\ \cline{2-3}
+				  &\makecell[l]{Self-maintenance cost should be similar to that\\of a conventional push bike.}&\makecell[c]{3}\\ \cline{2-3}
+				  &\makecell[l]{Battery replacement should be within the range of\\ \textsterling 200 - \textsterling 300.}&\makecell[c]{3}\\ \cline{2-3}
+				  &\makecell[l]{Average market price (disregarding economies\\of scale) should be taken for individual components\\and materials for the cost report}&\makecell[c]{3}\\ \cline{2-3}
+				  &\makecell[l]{The bike should be a long-term investment with an\\ensured ROI when compared to conventional\\transport methods offered within the city (incentive\\for potential customers)}&\makecell[c]{5}
+\end{longtable}
 
 \section{Biomechanics}
 
@@ -177,32 +233,32 @@ In order to meet customer demands, research and initial product specifications a
 \begin{table}[!ht]
 	\centering
 	\caption{Translation of user requirements}
-	\begin{tabular}{l l l r}
+	\begin{tabular}{l l l}
 		\hline
-		Category&User Requirements&Engineering Specifications&Ref\\\hline
-	Performance&Bike parts will last for a long time&Fatigue Limit Cycles&1\\
-		&Adequate gearing for a city environment&Number of Gears&2\\
-		&Mobility at moderate speeds&Turning radius at 20km/h&3\\
-		&Temperature resistant&Melting point of Material&4\\
-		&Corrosion resistant&Based on material selection&5\\
-		&Luggage space&Amount of suitcases supported&6\\
-		&High acceleration from rest&Effort required for acceleration&7\\
-		&Low-effort for commute&Effort required for distance&8\\
-		&Supports the weight of the rider&Material yield strength&9\\
-		&Good braking&Braking distance from max speed&10\\
-		&Low centre of gravity&Height of C.o.G. above ground&11\\\hline
-	Battery&High battery capacity/battery lifespan&Battery capacity&12\\
-		&Battery assists up to specified speed&Input choked at certain speed&13\\
-		&Battery recharges quickly&Recharge cycle time (full)&14\\
-		&Battery supports significant power&Work input&15\\\hline
-	Suspension&No deformations due to vibrations&Material yield strength&16\\
-		&Remains steady at high speeds&Structural vibrations&17\\
-		&Smooth ride&Spring stiffness&18\\\hline
-	Ergonomics&Comfortable riding position&Amount of satisfied people&19\\
-		&Height adjustable seat and handlebars&Range of adjustment&20\\
-		&Easy to assemble&Assembly time&21\\
-		&Easy to maintain&Amount of tools required&22\\
-		&Easy to carry&Overall weight of bicycle&23\\
+		Category&User Requirements&Engineering Specifications\\\hline
+	Performance&Bike parts will last for a long time&Fatigue Limit Cycles\\
+		&Adequate gearing for a city environment&Number of Gears\\
+		&Mobility at moderate speeds&Turning radius at 20km/h\\
+		&Temperature resistant&Melting point of Material\\
+		&Corrosion resistant&Based on material selection\\
+		&Luggage space&Amount of suitcases supported\\
+		&High acceleration from rest&Effort required for acceleration\\
+		&Low-effort for commute&Effort required for distance\\
+		&Supports the weight of the rider&Material yield strength\\
+		&Good braking&Braking distance from max speed\\
+		&Low centre of gravity&Height of C.o.G. above ground\\\hline
+	Battery&High battery capacity/battery lifespan&Battery capacity\\
+		&Battery assists up to specified speed&Input choked at certain speed\\
+		&Battery recharges quickly&Recharge cycle time (full)\\
+		&Battery supports significant power&Work input\\\hline
+	Suspension&No deformations due to vibrations&Material yield strength\\
+		&Remains steady at high speeds&Structural vibrations\\
+		&Smooth ride&Spring stiffness\\\hline
+	Ergonomics&Comfortable riding position&Amount of satisfied people\\
+		&Height adjustable seat and handlebars&Range of adjustment\\
+		&Easy to assemble&Assembly time\\
+		&Easy to maintain&Amount of tools required\\
+		&Easy to carry&Overall weight of bicycle\\
 	\end{tabular}
 \end{table}
 
@@ -220,7 +276,27 @@ To form the House of Quality, the following investigations were made to find rel
 	\item How much? (What are the feasible targets in terms of engineering specifications)
 \end{itemize}
 
-In the first phase of analysis, User requirements and Engineering specifications are inspected for relationships.
+In the first phase of analysis, User requirements and Engineering specifications are inspected for relationships (middle area of table~\ref{tab:hoq}). First, each engineering specification was identified with its corresponding unit of measurement and the direction in which it should be improved. Furthermore, from the colours it is apparent that the diagonal line of strong relationship is due to each user requirement having its own engineering specification. From this the main points of focus became:
+\begin{itemize}
+	\setlength{\itemsep}{0pt}
+	\item High battery quality which has properties that compliment each other and will demonstrate performance
+	\item The weight of the bicycle will have a large impact on all other requirements which means that it must be reduced as much as possible
+	\item Suspension, overall comfort, and battery power will be able to reduce the effort of the rider which pairs with the main objective
+\end{itemize}
+
+Next, engineering specifications are evaluated for potential relationships (roof). This analysis further reveals the importance of reducing the weight, and further confirms how effort of the rider will be minimised. The latter requirement primarily requests for sufficient battery quality, which needs to be implemented into the final design. Lastly in terms of suspension, the safety of the rider will essentially be improved, by protecting the bike during operation and potentially reducing braking distances.
+
+Potential buyers are then considered and scored based on how important they find the functional (user) requirements (left columns of table~\ref{tab:hoq}). In this case, 3 potential buyers are considered, and how they would potentially rank the importance of the selected requirements. The numbers sum up to 100, which means that an average importance lies at around 4. The following describes how the scores were evaluated:
+\begin{itemize}
+	\setlength{\itemsep}{0pt}
+	\item The target commuter will value high performance, battery quality, and comfort
+	\item The recreational user will value battery quality, and ergonomics
+	\item The retailer/sales person will require a balance bike, with good adjustability to market to his customers
+\end{itemize}
+
+In order to visualise where the final product would rank within the current market, competitors are scored based on how well they fulfil the same user requirements (right column of table~\ref{tab:hoq}). Here, a low-end bicycle (Greenedge CS2), and a high-end bicycle (Trek Lift+ Men) are qualitatively judged, where 5 is excellent, and a 1 is poor. Since the bikes considered tend to a similar market, the rankings are based on customer reviews and individual specifications. Since the selected design is supposed to fill the price range between the two (see PDS), its ranking is also kept between them. Slight improvements in terms of luggage, centre of gravity, and ride quality over the high-end bicycle are desired in order to better fulfil the main objective.
+
+Taking the existing information of the competitors into account, the targets for the design can be specified in the bottom rows of table~\ref{tab:hoq}.
 
 \newpage
 
@@ -232,6 +308,7 @@ In the first phase of analysis, User requirements and Engineering specifications
 	\centering
 	\caption{House of Quality}
 	\includegraphics[width=1.45\textwidth]{Hoq}
+	\label{tab:hoq}
 \end{table}
 
 \end{landscape}
