@@ -1,0 +1,32 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Weinert%
+, Burke%
+\BCBL {}\ \BBA {} Wei%
+}{%
+Weinert%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2007}}%
+}]{%
+wein07}
+\APACinsertmetastar {%
+wein07}%
+\begin{APACrefauthors}%
+Weinert, J\BPBI X.%
+, Burke, A\BPBI F.%
+\BCBL {}\ \BBA {} Wei, X.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Lead-acid and lithium-ion batteries for the Chinese
+  electric bike market and implications on future technology advancement}
+  {Lead-acid and lithium-ion batteries for the chinese electric bike market and
+  implications on future technology advancement}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Power Sources}{172}{2}{938--945}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
