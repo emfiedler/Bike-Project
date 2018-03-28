@@ -3,7 +3,6 @@
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{blindtext}
-\usepackage{apacite}
 \usepackage{tabularx}
 \usepackage{multirow}
 \usepackage{geometry}
@@ -27,6 +26,11 @@
 \usepackage{caption}
 	\setlength{\abovecaptionskip}{0.5em}
 \usepackage{makecell}
+\usepackage{etoolbox}
+	\apptocmd{\sloppy}{\hbadness 10000\relax}{}{}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{apacite}
 
 \title{\Huge{ENG2016: Bike Project}}
 \author{\begin{tabular}{l c}
@@ -81,7 +85,10 @@ The purpose of this project is to design an electric bicycle for 55+-year-old me
 
 \pagebreak
 
+\begingroup
+\onehalfspacing
 \tableofcontents
+\endgroup
 
 \pagebreak
 
@@ -107,28 +114,19 @@ This report will convey the emulation of a typical design process, the means use
 
 \section{Project Planning}
 
-In order to remain organised, a Gantt chart was formulated. The Gantt chart allowed a visualisation of work allocations for the various topics that were required to complete the project. 
+In order to remain organised, a Gantt chart was formulated. The Gantt chart allowed a visualisation of work allocations, for the various topics that were required to complete the project. 
 
 \subsection{Initial Work Allocations}
 
 \begin{table}[!ht]
 	\centering
 	\caption{Initial Gantt chart}
-	\begin{tabular}{l || c  c  c  c  c  c  c  c  c  c  c }
-		\multicolumn{1}{l||}{Task}&W1&W2&W3&W4&W5&W6&W7&W8&W9&W10&W11\\\hline\hline
-		Research&&&\multicolumn{1}{|c|}{\footnotesize{ALL}}&&&&&&&&\\ \hline
-		PDS&&&\multicolumn{2}{|c|}{\footnotesize{ALL}}&&&&&&&\\\hline
-		Concept Generation&&&&\multicolumn{2}{|c|}{\footnotesize{ALL}}&&&&&&\\\hline
-		CAD&&&&&\multicolumn{3}{|c}{\footnotesize{EW-ED-IV}}&\multicolumn{1}{|c}{\phantom{.}}&&&\\\hline
-		Market Analysis&&&&&\multicolumn{2}{|c|}{\footnotesize{QIYU}}&&&&&\\\hline
-		House of Quality&&&&&&\multicolumn{2}{|c}{\footnotesize{WILLIAM}}&\multicolumn{1}{|c}{\phantom{.}}&&&\\\hline
-		Report&&&&&&&&\multicolumn{4}{|c}{\footnotesize{ALL}}\\\hline
-		Presentation&&&&&&&&\multicolumn{4}{|c}{\footnotesize{ALL}}\\\hline
-		Group Meetings&&\multicolumn{10}{|c}{\footnotesize{ALL}}
-	\end{tabular}
+	\includegraphics[width=1\textwidth]{gti}
 \end{table}
 
-In terms of initial work distribution, the complexity of each topic was allocated between the group members based on: background, and abilities. This required the distribution of the CAD work amongst 3 people, as it was speculated to take longer. Furthermore, in the initial stages group work was emphasised to integrate individual concepts, and weekly meetings were scheduled in order to remain on the same page.
+In terms of initial work distribution, each topic was allocated between the group members based on: background (course), experience from previous projects, and abilities. Therefore, Ewan, Eduard, and Ivan were assigned the CAD work, as William and Qiyu had little to no experience with SolidWorks. As a result, William and Qiyu were left to work on the Market Analysis and House of Quality.
+
+The distribution of the CAD work was amongst 3 people, as it was speculated to take longer. Furthermore, in the initial stages group work (labelled `ALL') was emphasised to integrate individual concepts, and weekly meetings were scheduled in order to remain on the same page.
 
 \subsection{Final Work Allocations}
 
@@ -137,25 +135,14 @@ As progress was made with the project, initial roles couldn't be maintained due 
 \begin{table}[!ht]
 	\centering
 	\caption{Final Gantt chart}
-	\begin{tabular}{ l || c  c  c  c  c  c  c  c  c  c  c }
-		\multicolumn{1}{l||}{Task}&W1&W2&W3&W4&W5&W6&W7&W8&W9&W10&W11\\\hline\hline
-		PDS&&&\multicolumn{3}{|c|}{\footnotesize{ALL}}&&&&&&\\\hline
-		Concept Designs&&&\multicolumn{2}{|c}{\footnotesize{ALL}}&\multicolumn{1}{|c}{\phantom{.}}&&&&&\\\hline
-		Biomechanics&&&&&\multicolumn{5}{|c|}{\footnotesize{QI}}&\\\hline
-		Market Analysis&&&&&\multicolumn{5}{|c|}{\footnotesize{WILLIAM}}&\\\hline
-		House of Quality&&&&&\multicolumn{5}{|c|}{\footnotesize{EDUARD}}&\\\hline
-		Detailed Sketches&&&&&\multicolumn{3}{|c|}{\footnotesize{ALL}}&&&\\\hline
-		Components&&&&&\multicolumn{1}{|c}{\footnotesize{ALL}}&\multicolumn{4}{|c|}{\footnotesize{IVAN}}&\\\hline
-		Materials&&&&&&\multicolumn{4}{|c|}{\footnotesize{IVAN}}&\\\hline
-		Design Analysis&&&&&&&\multicolumn{2}{|c|}{\footnotesize{ALL}}&&&\\\hline
-		CAD&&&&&\multicolumn{5}{|c|}{\footnotesize{EWAN}}&\\\hline
-		Costing&&&&&&&\multicolumn{3}{|c|}{\footnotesize{IVAN}}&&\\\hline
-		Group Meetings&&\multicolumn{10}{|c}{\footnotesize{ALL}}\\\hline
-		Presentation&&&&&&&&\multicolumn{4}{|c}{\footnotesize{ALL}}\\\hline
-		Report&&&&&&&&\multicolumn{4}{|c}{\footnotesize{ALL}}\\\hline
-		Evaluation&&&&&&&&&&&\multicolumn{1}{|c}{\footnotesize{ALL}}
-	\end{tabular}
+	\includegraphics[width=1\textwidth]{gtf}
 \end{table}
+
+In the Final Gantt chart, the person to whom the Task is credited towards, is the one who contributed the most in that discipline. For example, in the process of producing the CAD, Ivan and Eduard made individual parts which included: wheels, electrical drivetrain, battery, pedals, and mechanical disc brakes. However, Ewan completed the remaining components, created drafts, and assembled the components into a bicycle. Therefore, Ewan is credited in the chart, as he devoted the most time to the CAD.
+
+Conversely, tasks completed by `ALL,' were completed by the entire group. This was achieved by either congregating in the form of a weekly group meeting, and contributing to a task together, or creating an online document in which the group was able to gather and present their ideas.
+
+In terms of milestones, initial research was concluded in week 4. Development into particular categories of the report were concluded in week 9. From the interim to final presentation, a clear structure was formulated for the presentation together, as well as practice rehearsals were held every week. Finally, from week 10 onwards, progress was fully committed towards the report in order to finish the project on time.
 
 \section{User Requirements}
 
@@ -172,6 +159,7 @@ As progress was made with the project, initial roles couldn't be maintained due 
 \end{itemize}
 
 \subsection{Product Design Specification}
+\label{sec:pds}
 
 \begin{longtable}{l l c}
 	\caption{PDS and Importance scale}\\
@@ -213,24 +201,49 @@ As progress was made with the project, initial roles couldn't be maintained due 
 				  &\makecell[l]{Battery replacement should be within the range of\\ \textsterling 200 - \textsterling 300.}&\makecell[c]{3}\\ \cline{2-3}
 				  &\makecell[l]{Average market price (disregarding economies\\of scale) should be taken for individual components\\and materials for the cost report}&\makecell[c]{3}\\ \cline{2-3}
 				  &\makecell[l]{The bike should be a long-term investment with an\\ensured ROI when compared to conventional\\transport methods offered within the city (incentive\\for potential customers)}&\makecell[c]{5}
+	\label{tab:pds}
 \end{longtable}
 
+The PDS has every point rated from 1 to 5 in terms of its importance to the final design, with 5 being most important. The majority of the most important points are to do with the standards that must be complied with when designing and selling a bike in Britain. 
+
+The standards that need to be complied with are one which outlines the motor and battery performance of an e-bike \cite{15194}, and another which adheres to general bicycle safety \cite{14764}. The next most important points were generally to do with ease of use for the user, and the rider safety. After that came points that should be adhered to naturally as part of designing a bike and should not require to much thought or work. The least important aspects were points that are desirable but not required.
+
 \section{Biomechanics}
+
+The most attractive part in regards to an e-bike is that it is able to provide assistance in proportion to how much the rider pedals. This allows the rider to conserve energy and reduce their effort while commuting. 
+
+For both e-bikes and ordinary bikes, there are two same basic riding mechanics. Firstly, the hip flexion which is the extension of hip and knee in positions between 70$^{\circ}$ and 140$^{\circ}$ between the quadriceps and calf muscles. Secondly, the knee flexion which is  the extension of muscles in the leg at the bottom and top of the pedal stroke. However, the big difference for an e-bike in comparison to an ordinary one, is that the quadriceps and gluteus muscles will require less force to bring one pedal to the top position. Additionally, less downward force will be required by the hamstring and calf muscles to the opposite pedal.
+
+The main cause for the big difference comes from the propulsion provided by the pedal motor, applied in the rear part of the e-bike which is also the main motivation of the bike. There is the comparison of different amount of force provided by human muscles to the pedal during riding e-bikes and ordinary bikes which are able to demonstrate the big difference for e-bikes, and is shown by figure X. 
+
+\begin{figure}[ht]
+	\caption{Force applied comparison}
+\end{figure}
+
+In terms of the upper part of the human body, the same muscles are engaged regardless of type of bike. This comprises of the abdominal muscle, which is responsible for the cycler's spine, and ensuring the balance for the pelvis and spine. Moreover the muscles in the back and front of arms allow people to hold the handle bar. However, the difference for the e-bike designed by us is the up ride riding position frame with a cruiser handle bar which enable cycler's spine to be straight rather than at an angle. In this up-right riding position, the abdominal muscle and the arm muscles will put less force in order to hold the posture which may avoid some possible physical problems in the back, spine, and neck of the rider \cite{schwell05}.
 
 \section{Current Market Analysis}
 
 \section{Conceptual Design}
 
-\subsection{Initial Sketches}
+\subsection{Concepts Sketches}
+
+The following are concept sketches (Figure~\ref{fig:sk}) which correspond to ideas 1-5, in order, in the subsequent morphological analysis. The second sketch has been rendered by hand to show the colour scheme that has been approved by the group. The chosen black/grey colour scheme is utilised as it gives a classy and mature look, and would best appeal to the specified target market of more classy and mature men. The sketches, morphological analysis, in conjunction with the most popular choices from it, conceptualised the final design choice (Figure~\ref{fig:fs}). 
+
+The sketches allowed for a better understanding of how the design might be implemented and how to make it visually appealing, as that is a major part of any design in terms of getting it to sell well. Whilst the morphological analysis allowed the decision on certain specifics of the design based on their function and what would make the design optimal for its function, as a design which looks good but does not work will not sell either.
 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=0.9\textwidth]{ske}
+	\includegraphics[width=0.98\textwidth]{ske}
 	\caption{First concepts}
 	\label{fig:sk}
 \end{figure}
 
-The depicted sketches are the initial attempts at designing an e-bike.
+\begin{figure}[!ht]
+	\centering
+	\caption{Final concept}
+	\label{fig:fs}
+\end{figure}
 
 \newpage
 
@@ -263,14 +276,17 @@ The depicted sketches are the initial attempts at designing an e-bike.
 	\end{tabular}
 \end{table}
 
-\subsection{Final Concept}
-
 \newpage
+
 \section{Quality Function Deployment}
 
-In order to meet customer demands, research and initial product specifications are combined to form the House of Quality. The aim is to produce a customer driven product which will fulfil key demands, by translating user requirements into engineering requirements. Then, by comparing the individual aspects, the importance can be visualised and securely compromised if they are deemed unimportant to the design.
+In order to meet customer demands, research and initial product specifications are combined to form the House of Quality. The aim is to produce a customer driven product which will fulfil key demands, by translating user requirements into engineering requirements. Then, by comparing the individual aspects, the importance can be visualised and securely compromised if deemed unimportant to the design \cite{fran01}.
 
 \subsection{Engineering Specifications}
+
+From the product design specifications, specifications from Table~\ref{tab:pds} were grouped together to form an umbrella statement, which a potential user might inquire about the bike. For example, ``Mechanical components should withstand at least 20,000 operational hours,'' and ``Motor should be reliable, and in case of failure it should be serviced by an expert mechanic,'' are translated into ``Bike parts will last for a long time.'' 
+
+Some statements from Table~\ref{tab:pds}, were ruled out as they seemed inappropriate towards the objective of the House of Quality. For example, ``The explosion from a punctured tyre should be minimised.'' The entire category specifying ``Cost,'' was not included as it is essentially how the outcome of the House of Quality is quantified.
 
 \begin{table}[!ht]
 	\centering
@@ -304,7 +320,9 @@ In order to meet customer demands, research and initial product specifications a
 	\end{tabular}
 \end{table}
 
-When translating user requirements to engineering specifications, various methods of testing and measuring are used to describe them. In terms of performance, properties of the general structure of the bike, and its functionality are considered. Furthermore for the battery and the suspension, these characteristics were considered outside of the performance, as they are aspects that must be well defined for the end design of the bike. Lastly, requirements categorised as ergonomics, are quantified in terms of ease of use and comfort.
+\newpage
+
+When translating user requirements to engineering specifications, various methods of testing and measuring were considered in the process. In terms of performance, properties of the general structure of the bike, and its functionality are considered. Furthermore for the battery and the suspension, these characteristics were considered outside of the performance, as they are aspects that must be well defined for the end design of the bike. Lastly, requirements categorised as ergonomics, are quantified in terms of ease of use and comfort.
 
 \subsection{Analysis}
 
@@ -318,7 +336,7 @@ To form the House of Quality, the following investigations were made to find rel
 	\item How much? (What are the feasible targets in terms of engineering specifications)
 \end{itemize}
 
-In the first phase of analysis, User requirements and Engineering specifications are inspected for relationships (middle area of table~\ref{tab:hoq}). First, each engineering specification was identified with its corresponding unit of measurement and the direction in which it should be improved. Furthermore, from the colours it is apparent that the diagonal line of strong relationship is due to each user requirement having its own engineering specification. From this the main points of focus became:
+In the first phase of analysis, User requirements and Engineering specifications are inspected for relationships (middle area of Table~\ref{tab:hoq}). First, each engineering specification was identified with its corresponding unit of measurement and the direction in which it should be improved. Furthermore, from the colours it is apparent that the diagonal line of strong relationship is due to each user requirement having its own engineering specification. From this the main points of focus became:
 \begin{itemize}
 	\setlength{\itemsep}{0pt}
 	\item High battery quality which has properties that compliment each other and will demonstrate performance
@@ -336,7 +354,7 @@ Potential buyers are then considered and scored based on how important they find
 	\item The retailer/sales person will require a balance bike, with good adjustability to market to his customers
 \end{itemize}
 
-In order to visualise where the final product would rank within the current market, competitors are scored based on how well they fulfil the same user requirements (right column of table~\ref{tab:hoq}). Here, a low-end bicycle (Greenedge CS2), and a high-end bicycle (Trek Lift+ Men) are qualitatively judged, where 5 is excellent, and a 1 is poor. Since the bikes considered tend to a similar market, the rankings are based on customer reviews and individual specifications. Since the selected design is supposed to fill the price range between the two (see PDS), its ranking is also kept between them. Slight improvements in terms of luggage, centre of gravity, and ride quality over the high-end bicycle are desired in order to better fulfil the main objective.
+In order to visualise where the final product would rank within the current market, competitors are scored based on how well they fulfil the same user requirements (right column of Table~\ref{tab:hoq}). Here, a low-end bicycle (Greenedge CS2), and a high-end bicycle (Trek Lift+ Men) are qualitatively judged, where 5 is excellent, and a 1 is poor. Since the bikes considered tend to a similar market, the rankings are based on customer reviews and individual specifications. Since the selected design is supposed to fill the price range between the two (see PDS), its ranking is also kept between them. Slight improvements in terms of luggage, centre of gravity, and ride quality over the high-end bicycle are desired in order to better fulfil the main objective.
 
 Taking the existing information of the competitors into account, the targets for the design can be specified in the bottom rows of table~\ref{tab:hoq}.
 
@@ -364,7 +382,11 @@ Taking the existing information of the competitors into account, the targets for
 
 \subsection{Calculations}
 
+In order to accomplish a functioning bicycle, apart from measurements based on the adult male body, chain length, and force simulations were considered.
+
 \subsection{Standards Considered}
+
+As mentioned in Section~\ref{sec:pds}, there are certain standards that must be considered in order to sell this design as legal bicycle in Europe. 
 
 \section{Costing and Implementation}
 
@@ -471,9 +493,13 @@ The final selling price can be determined once further market analysis and focus
 
 The following is the break-even analysis conducted for the costs and prices which have been laid out in the above sections. It was also assumed that for the given production capacity, there would be three employees working full time at a standard wage of \textsterling 23,333 per annum.
 
-\begin{figure}[ht]
-	\caption{Graph displaying the break-even analysis. Break even achieved after 108 units sold.}
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=0.8\textwidth]{geg}
+	\caption{Break even at 108 units sold.}
 \end{figure}
+
+\newpage
 
 \subsection{Profit and Loss Accounts}
 
@@ -534,7 +560,11 @@ The scenario where 100 bikes are sold never quite becomes profitable. The ROI do
 
 \section{Project Evaluation}
 
+
+\sloppy
 \bibliographystyle{apacite}
 \bibliography{References}
+
+\nocite{shi}
 
 \end{document}
