@@ -1,6 +1,736 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+{BikeDynamics Ltd.}%
+}{%
+{BikeDynamics Ltd.}%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+bd16}
+\APACinsertmetastar {%
+bd16}%
+\begin{APACrefauthors}%
+{BikeDynamics Ltd.}%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+\APACrefbtitle {Crank Arm Lengths.} {Crank arm lengths.}
+\newblock
+\begin{APACrefURL} \url{http://bikedynamics.co.uk/images/Kneeext.jpg}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: 2018-03-24}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+BS EN ISO 286}{%
+BS EN ISO 286}{%
+{\protect \APACyear {2010}}%
+}]{%
+286}
+\APACinsertmetastar {%
+286}%
+\begin{APACrefauthors}%
+{BS EN ISO 286}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+\APACrefbtitle {{Geometrical product specifications (GPS) -- ISO code system
+  for tolerances on linear sizes}} {{Geometrical product specifications (GPS)
+  -- ISO code system for tolerances on linear sizes}}\ \APACbVolEdTR
+  {}{Standard}.
+\newblock
+\APACaddressInstitution{London, United Kingdom}{The British Standards
+  Institution}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{CES EduPack}%
+}{%
+{CES EduPack}%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+CES}
+\APACinsertmetastar {%
+CES}%
+\begin{APACrefauthors}%
+{CES EduPack}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+\APACrefbtitle {The Cambridge Engineering Selector.} {The cambridge engineering
+  selector.}
+\newblock
+\APACaddressPublisher{}{Granta Design, Rustat House}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Childs%
+}{%
+Childs%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+childs04}
+\APACinsertmetastar {%
+childs04}%
+\begin{APACrefauthors}%
+Childs, P\BPBI R\BPBI N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Mechanical Design} {Mechanical design}.{\BBCQ}
+\newblock
+\BIn{} (\PrintOrdinal{2}\ \BEd, \BPGS\ 170--171).
+\newblock
+\APACaddressPublisher{}{Butterworth-Heinemann}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Clarks Cycle Systems Ltd.}%
+}{%
+{Clarks Cycle Systems Ltd.}%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+clarks18}
+\APACinsertmetastar {%
+clarks18}%
+\begin{APACrefauthors}%
+{Clarks Cycle Systems Ltd.}%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+\APACrefbtitle {Clarks CMD-11.} {Clarks cmd-11.}
+\newblock
+\begin{APACrefURL} \url{http://clarkscyclesystems.com/product-range.html}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: 2018-04-11}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+DIN EN 14764}{%
+DIN EN 14764}{%
+{\protect \APACyear {2006}}%
+}]{%
+14764}
+\APACinsertmetastar {%
+14764}%
+\begin{APACrefauthors}%
+{DIN EN 14764}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+\APACrefbtitle {{City and trekking bicycles - Safety requirements and test
+  methods}} {{City and trekking bicycles - Safety requirements and test
+  methods}}\ \APACbVolEdTR {}{Standard}.
+\newblock
+\APACaddressInstitution{Berlin, Germany}{Deutsches Institut für Normung e. V.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+DIN EN 15194}{%
+DIN EN 15194}{%
+{\protect \APACyear {2017}}%
+}]{%
+15194}
+\APACinsertmetastar {%
+15194}%
+\begin{APACrefauthors}%
+{DIN EN 15194}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+\APACrefbtitle {{Cycles -- Electrically Powered Assisted Cycles -- EPAC
+  Bicycles}} {{Cycles -- Electrically Powered Assisted Cycles -- EPAC
+  Bicycles}}\ \APACbVolEdTR {}{Standard}.
+\newblock
+\APACaddressInstitution{Berlin, Germany}{Deutsches Institut für Normung e. V.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{ExtraUK}%
+}{%
+{ExtraUK}%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+bioflex18}
+\APACinsertmetastar {%
+bioflex18}%
+\begin{APACrefauthors}%
+{ExtraUK}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+\APACrefbtitle {BIOFLEX CRUISE GEL - WEBSPRUNG.} {Bioflex cruise gel -
+  websprung.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.extrauk.co.uk/product/detail/Bioflex/Mens/1203/}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: 2018-04-11}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Fenske%
+}{%
+Fenske%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+fen13}
+\APACinsertmetastar {%
+fen13}%
+\begin{APACrefauthors}%
+Fenske, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+\APACrefbtitle {Rotational Inertia -- Effects on Hoursepower.} {Rotational
+  inertia -- effects on hoursepower.}
+\newblock
+\APAChowpublished {Youtube}.
+\newblock
+\begin{APACrefURL} \url{https://youtu.be/CxuER0qIWJk} \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: 2018-04-10}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Franceschini%
+}{%
+Franceschini%
+}{%
+{\protect \APACyear {2001}}%
+}]{%
+fran01}
+\APACinsertmetastar {%
+fran01}%
+\begin{APACrefauthors}%
+Franceschini, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Advanced Quality Function Deployment} {Advanced quality
+  function deployment}.{\BBCQ}
+\newblock
+\BIn{} (\PrintOrdinal{1}\ \BEd, \BPGS\ 21--32).
+\newblock
+\APACaddressPublisher{}{CRC Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Halfords}%
+}{%
+{Halfords}%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+cs2}
+\APACinsertmetastar {%
+cs2}%
+\begin{APACrefauthors}%
+{Halfords}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+\APACrefbtitle {Greenedge CS2.} {Greenedge cs2.}
+\newblock
+\begin{APACrefURL}
+  \url{http://www.halfords.com/cycling/bikes/electric-bikes/greenedge-cs2-electric-mountain-bike}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: 2018-04-09}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+ISO 4757}{%
+ISO 4757}{%
+{\protect \APACyear {1983}}%
+}]{%
+4757}
+\APACinsertmetastar {%
+4757}%
+\begin{APACrefauthors}%
+{ISO 4757}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1983}{}{}.
+\newblock
+\APACrefbtitle {{Cross recesses for screws}} {{Cross recesses for screws}}\
+  \APACbVolEdTR {}{Standard}.
+\newblock
+\APACaddressInstitution{Geneva, Switzerland}{International Organization for
+  Standardization}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+ISO 4762}{%
+ISO 4762}{%
+{\protect \APACyear {2004}}%
+}]{%
+4762}
+\APACinsertmetastar {%
+4762}%
+\begin{APACrefauthors}%
+{ISO 4762}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+\APACrefbtitle {{Hexagon socket head cap screws}} {{Hexagon socket head cap
+  screws}}\ \APACbVolEdTR {}{Standard}.
+\newblock
+\APACaddressInstitution{Geneva, Switzerland}{International Organization for
+  Standardization}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+ISO 9606-2}{%
+ISO 9606-2}{%
+{\protect \APACyear {2004}}%
+}]{%
+9606}
+\APACinsertmetastar {%
+9606}%
+\begin{APACrefauthors}%
+{ISO 9606-2}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+\APACrefbtitle {{Qualification test of welders -- Fusion welding -- Part 2:
+  Aluminium and aluminium alloys}} {{Qualification test of welders -- Fusion
+  welding -- Part 2: Aluminium and aluminium alloys}}\ \APACbVolEdTR
+  {}{Standard}.
+\newblock
+\APACaddressInstitution{Geneva, Switzerland}{International Organization for
+  Standardization}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Luc{\'i}a%
+, Hoyos%
+\BCBL {}\ \BBA {} Chicharro%
+}{%
+Luc{\'i}a%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2001}}%
+}]{%
+lucia01}
+\APACinsertmetastar {%
+lucia01}%
+\begin{APACrefauthors}%
+Luc{\'i}a, A.%
+, Hoyos, J.%
+\BCBL {}\ \BBA {} Chicharro, J\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Preferred pedalling cadence in professional cycling}
+  {Preferred pedalling cadence in professional cycling}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Medicine \& Science in Sports \&
+  Exercise}{33}{8}{1361--1362}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Made2Race Ltd.}%
+}{%
+{Made2Race Ltd.}%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+m2r}
+\APACinsertmetastar {%
+m2r}%
+\begin{APACrefauthors}%
+{Made2Race Ltd.}%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+\APACrefbtitle {M2R KM125MX KM140MX KM160MX Pit Bike Shock Absorber 270mm.}
+  {M2r km125mx km140mx km160mx pit bike shock absorber 270mm.}
+\newblock
+\begin{APACrefURL} \url{https://http://www.made2race.co.uk/} \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: 2018-04-10}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{MakeItFrom}%
+}{%
+{MakeItFrom}%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+mif}
+\APACinsertmetastar {%
+mif}%
+\begin{APACrefauthors}%
+{MakeItFrom}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+\APACrefbtitle {6061-T6 Aluminum vs. 7005-T6 Aluminum.} {6061-t6 aluminum vs.
+  7005-t6 aluminum.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.makeitfrom.com/compare/6061-T6-Aluminum/7005-T6-Aluminum/}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: 2018-04-11}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+McCormack%
+}{%
+McCormack%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+lee08}
+\APACinsertmetastar {%
+lee08}%
+\begin{APACrefauthors}%
+McCormack, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+\APACrefbtitle {Mastering Mountain Bike Skills -- Which muscles do the Work.}
+  {Mastering mountain bike skills -- which muscles do the work.}
+\newblock
+\begin{APACrefURL}
+  \url{http://www.leelikesbikes.com/wp-content/012107pedalstroke.jpg}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: 2018-03-24}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Muetze%
+\ \BBA {} Tan%
+}{%
+Muetze%
+\ \BBA {} Tan%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+muetz07}
+\APACinsertmetastar {%
+muetz07}%
+\begin{APACrefauthors}%
+Muetze, A.%
+\BCBT {}\ \BBA {} Tan, Y\BPBI C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Electric bicycles-A performance evaluation} {Electric
+  bicycles-a performance evaluation}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Industry Applications Magazine}{13}{4}{12--21}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Raghunath%
+}{%
+Raghunath%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+rag14}
+\APACinsertmetastar {%
+rag14}%
+\begin{APACrefauthors}%
+Raghunath, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Hardware Design Considerations for an Electric
+  BicycleUsing a BLDC Motor} {Hardware design considerations for an electric
+  bicycleusing a bldc motor}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Texas Instruments Incorporated}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Raleigh Ltd.}%
+}{%
+{Raleigh Ltd.}%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+raleigh18}
+\APACinsertmetastar {%
+raleigh18}%
+\begin{APACrefauthors}%
+{Raleigh Ltd.}%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+\APACrefbtitle {Raleigh RNH361 Trekking Comfort Handlebar -- Silver.} {Raleigh
+  rnh361 trekking comfort handlebar -- silver.}
+\newblock
+\begin{APACrefURL} \url{https://www.raleigh.co.uk/} \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: 2018-04-11}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Ralf Bohle GmbH}%
+}{%
+{Ralf Bohle GmbH}%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+schwalbe18}
+\APACinsertmetastar {%
+schwalbe18}%
+\begin{APACrefauthors}%
+{Ralf Bohle GmbH}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+\APACrefbtitle {Schwalbe Marathon.} {Schwalbe marathon.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.schwalbe.com/en-GB/tour-reader/marathon.html}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: 2018-04-11}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Robert Bosch GmbH}%
+}{%
+{Robert Bosch GmbH}%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+bosch18}
+\APACinsertmetastar {%
+bosch18}%
+\begin{APACrefauthors}%
+{Robert Bosch GmbH}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+\APACrefbtitle {Bosch eBike Systems.} {Bosch ebike systems.}
+\newblock
+\begin{APACrefURL} \url{https://www.bosch-ebike.com/en/products/active-line/}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: 2018-03-29}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Schwellnus%
+\ \BBA {} Derman%
+}{%
+Schwellnus%
+\ \BBA {} Derman%
+}{%
+{\protect \APACyear {2005}}%
+}]{%
+schwell05}
+\APACinsertmetastar {%
+schwell05}%
+\begin{APACrefauthors}%
+Schwellnus, M\BPBI P.%
+\BCBT {}\ \BBA {} Derman, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Common injuries in cycling: Prevention, diagnosis and
+  management} {Common injuries in cycling: Prevention, diagnosis and
+  management}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{South African Family Practice}{47}{7}{14--19}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Shimano Inc}%
+}{%
+{Shimano Inc}%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+shimano18}
+\APACinsertmetastar {%
+shimano18}%
+\begin{APACrefauthors}%
+{Shimano Inc}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+\APACrefbtitle {Shimano.} {Shimano.}
+\newblock
+\begin{APACrefURL} \url{https://bike.shimano.com/en-EU/home.html}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: 2018-04-11}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Spine Health Institute}%
+}{%
+{Spine Health Institute}%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+shi}
+\APACinsertmetastar {%
+shi}%
+\begin{APACrefauthors}%
+{Spine Health Institute}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+\APACrefbtitle {Protect Your Neck and Back while Biking: 4 Tips for Spine-Safe
+  Cycling.} {Protect your neck and back while biking: 4 tips for spine-safe
+  cycling.}
+\newblock
+\begin{APACrefURL}
+  \url{http://www.thespinehealthinstitute.com/news-room/health-blog/protect-your-neck-and-back-while-biking-4-tips-for-spine-safe-cycling}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: 2018-03-24}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{SR Suntour}%
+}{%
+{SR Suntour}%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+suntour}
+\APACinsertmetastar {%
+suntour}%
+\begin{APACrefauthors}%
+{SR Suntour}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+\APACrefbtitle {XCR 26''.} {Xcr 26''.}
+\newblock
+\begin{APACrefURL}
+  \url{http://www.srsuntour-cycling.com/components/fork/XCR-26-5612.html}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: 2018-04-10}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Stott%
+}{%
+Stott%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+stott}
+\APACinsertmetastar {%
+stott}%
+\begin{APACrefauthors}%
+Stott, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+\APACrefbtitle {The ultimate guide to mountain bike rear suspension systems.}
+  {The ultimate guide to mountain bike rear suspension systems.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.bikeradar.com/mtb/gear/article/ultimate-guide-to-mountain-bike-rear-suspension-systems-50849/}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: 2018-04-10}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Trek Bicycle Corporation}%
+}{%
+{Trek Bicycle Corporation}%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+trek}
+\APACinsertmetastar {%
+trek}%
+\begin{APACrefauthors}%
+{Trek Bicycle Corporation}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+\APACrefbtitle {Lift+ Men's.} {Lift+ men's.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.trekbikes.com/us/en_US/bikes/hybrid-bikes/electric-hybrid-bikes/lift/lift-mens/p/16815/?colorCode=black}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: 2018-04-09}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Weinert%
 , Burke%
 \BCBL {}\ \BBA {} Wei%
@@ -27,6 +757,60 @@ Weinert, J\BPBI X.%
   implications on future technology advancement}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Journal of Power Sources}{172}{2}{938--945}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wilson%
+\ \BBA {} Papadopoulos%
+}{%
+Wilson%
+\ \BBA {} Papadopoulos%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+wilson04}
+\APACinsertmetastar {%
+wilson04}%
+\begin{APACrefauthors}%
+Wilson, D\BPBI G.%
+\BCBT {}\ \BBA {} Papadopoulos, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Bicycling science} {Bicycling science}.{\BBCQ}
+\newblock
+\BIn{} (\BPG~45).
+\newblock
+\APACaddressPublisher{}{MIT press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{XE.COM Inc.}%
+}{%
+{XE.COM Inc.}%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+xe}
+\APACinsertmetastar {%
+xe}%
+\begin{APACrefauthors}%
+{XE.COM Inc.}%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+\APACrefbtitle {XE Currency Converter: USD to GBP.} {Xe currency converter: Usd
+  to gbp.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.xe.com/currencyconverter/convert/?Amount=1&From=USD&To=GBP}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: 2018-04-11}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
